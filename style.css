@@ -1,0 +1,318 @@
+.main{
+	height: 100%;
+	width: 100%;
+	position: absolute;
+}
+
+#myVideo{
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	min-width: 100%;
+	min-height: 100%;
+}
+			
+.transparent{
+	width: 100%;
+	height:100%;
+	position: parent;
+	background-color: white;
+	opacity: 0.5;
+}
+			
+.button{
+	background-color: lightblue;
+	color: white;
+	width: 49%;
+	height: 13%;
+	border: none;
+	border-radius: 10px;
+}
+
+.ThreeBlocks{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 100%;
+	background-color: lightblue;
+}
+
+.card1{
+	position: relative;
+	position: absolute;
+	top: 30%;
+	left: 20%;
+}
+
+.card2{
+	position: relative;
+	position: absolute;
+	top: 30%;
+	left: 41%;
+}
+
+.card3{
+	position: relative;
+	position: absolute;
+	top: 30%;
+	right: 20%;
+}
+
+.ThreeBlocksTitle{
+	position: relative;
+	position: absolute;
+	top: 12%;
+	left: 42%;
+	color: green;
+}
+
+.HandsShake{
+	width: 100%;
+	height: 80%;
+	position: absolute;
+	top: 200%;
+	background-image: url(HandsShake.jpg);
+	background-size: cover;
+}
+
+.FourCards{
+	position: absolute;
+	top: 280%;
+	height: 100%;
+	width: 100%;
+}
+
+.numberedCard{
+	width: 42%;
+	height: 45%;
+	background-color: lightgray;
+}
+
+.CardNumber{
+	color: blue;
+	font-size: 700%;
+}
+
+.CardBody{
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
+.CardTitle{
+	font-size: 200%;
+}
+
+.num1{
+	position: relative;
+	position: absolute;
+	top: -10%;
+	left: 5%;
+}
+
+.num2{
+	position: relative;
+	position: absolute;
+	top: -10%;
+	right: 5%;
+}
+
+.num3{
+	position: relative;
+	position: absolute;
+	top: 45%;
+	left: 5%;
+}
+
+.num4{
+	position: relative;
+	position: absolute;
+	top: 45%;
+	right: 5%;
+}
+
+.RandomLine{
+	position: absolute;
+	top: 380%;
+	height: 20%;
+	width: 100%;
+	background-color: royalblue;
+}
+
+.RandomLineText{
+	width: 40%;
+	position: relative;
+	top: 40%;
+	font-size: 150%;
+	color: white;
+	left: 43%;
+	
+}
+
+.threeCards{
+	width: 100%;
+	height: 150%;
+	position: absolute;
+	top: 400%;
+	z-index: 10;
+	background-color: white;
+}
+
+.block1{
+	width: 95%;
+	height: 30%;
+	position: relative;
+	position: absolute;
+	left: 2.5%;
+	margin: 2.5%;
+}
+
+.img1{
+	background-image: url(HandsShake2.jpg);
+	height: 100%;
+	width: 45%;
+	background-size: cover;
+	position: relative;
+	position: absolute;
+	right: 2.5%;
+}
+
+.txt1{
+	height: 100%;
+	width: 45%;
+	position: relative;
+	position: absolute;
+	left: 2.5%;
+}
+
+.block2{
+	width: 95%;
+	height: 30%;
+	position: relative;
+	position: absolute;
+	left: 2.5%;
+	top: 32.5%;
+	margin: 2.5%;
+}
+
+.img2{
+	background-image: url(HandsShake2.jpg);
+	height: 100%;
+	width: 45%;
+	background-size: cover;
+	position: relative;
+	position: absolute;
+	left: 2.5%;
+}
+
+.txt2{
+	height: 100%;
+	width: 45%;
+	position: relative;
+	position: absolute;
+	right: 2.5%;
+}
+
+.block3{
+	width: 95%;
+	height: 30%;
+	bottom: -1.25%;
+	position: relative;
+	position: absolute;
+	left: 2.5%;
+	margin: 2.5%;
+}
+
+.img3{
+	background-image: url(HandsShake2.jpg);
+	height: 100%;
+	width: 45%;
+	background-size: cover;
+	position: relative;
+	position: absolute;
+	right: 2.5%;
+}
+
+.txt3{
+	height: 100%;
+	width: 45%;
+	position: relative;
+	position: absolute;
+	left: 2.5%;
+}
+
+.blockButton{
+	width: 30%;
+	height: 20%; 
+}
+
+.RandomLine2{
+	position: absolute;
+	top: 520%;
+	height: 70%;
+	width: 100%;
+	background-image: url(plane.jpg);
+	background-size: cover;
+	z-index: 1;
+}
+
+.RandomLine2Text{
+	width: 90%;
+	position: relative;
+	position: absolute;
+	top: 60%;
+	color: white;
+	left: 5%;
+}
+
+.RandomLine2Button{
+	position: parent;
+	position: absolute;
+	height: 100%;
+	width: 20%;
+	right: 5%;
+	font-size: 150%;
+	top: 20%;
+}
+
+.footer{
+	position: absolute;
+	top: 590%;
+	width: 100%;
+	height: 30%;
+	background-color: lightblue;
+	color: royalblue;
+	padding: 2%;
+}
+
+.footerText1{
+	position: relative;
+	position: absolute;
+	left: 7%;
+}
+
+.footerText2{
+	position: relative;
+	position: absolute;
+	left: 27%;
+}
+
+.footerText3{
+	position: relative;
+	position: absolute;
+	left: 50%;
+}
+
+.footerText4{
+	position: relative;
+	position: absolute;
+	left: 70%;
+}
+
+.underfooter{
+	position: absolute;
+	top: 620%;
+	width: 100%;
+	height: 5%;
+	background-color: royalblue;
+	color: lightblue;
+}
